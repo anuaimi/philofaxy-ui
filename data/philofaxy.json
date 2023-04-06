@@ -1,0 +1,371 @@
+[{
+	"name": "Day per page original",
+	"pageSize": "a4-a5",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/1.1%20day%20per%20page/Picture%201.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/1.1%20day%20per%20page/2023%201.1.1.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/1.1%20day%20per%20page/2023%201.1.1.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/1.1%20day%20per%20page/1.1.1%20Day%20per%20page%20original.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_A4%20data%20sources/DayPerPage%20source.xlsx"
+}
+, {
+	"name": "Day per page minimalist",
+	"pageSize": "a4-a5",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/1.1%20day%20per%20page/Picture%202.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/1.1%20day%20per%20page/2023%201.1.2.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/1.1%20day%20per%20page/2023%201.1.2.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/1.1%20day%20per%20page/1.1.2%20Day%20per%20page%20minimalist.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_A4%20data%20sources/DayPerPage%20source.xlsx"
+}, {
+	"name": "Day per page minimalist wide rule",
+	"pageSize": "a4-a5",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/1.1%20day%20per%20page/Picture%203.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/1.1%20day%20per%20page/2023%201.1.3.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/1.1%20day%20per%20page/2023%201.1.3.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/1.1%20day%20per%20page/1.1.3%20Day%20per%20page%20minimalist%20wide%20rule.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_A4%20data%20sources/DayPerPage%20source.xlsx"
+}, {
+	"name": "Day on two pages original",
+	"pageSize": "a4-a5",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/1.2%20day%20on%20two%20pages/Picture%201.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/1.2%20day%20on%20two%20pages/2023%201.2.1.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/1.2%20day%20on%20two%20pages/2023%201.2.1.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/1.2%20day%20on%20two%20pages/1.2.1%20Day%20on%20two%20pages%20original.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_A4%20data%20sources/DayPerPage%20source.xlsx"
+}, {
+	"name": "Daily dashboard",
+	"pageSize": "a4-a5",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/1.2%20day%20on%20two%20pages/Picture%202.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/1.2%20day%20on%20two%20pages/2023%201.2.2.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/1.2%20day%20on%20two%20pages/2023%201.2.2.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/1.2%20day%20on%20two%20pages/1.2.2%20Daily%20dashboard.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_A4%20data%20sources/DayPerPage%20source.xlsx"
+}, {
+	"name": "Two days per page",
+	"pageSize": "a4-a5",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/1.3%20two%20days%20per%20page/Picture%201.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/1.3%20two%20days%20per%20page/2023%201.3.1.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/1.3%20two%20days%20per%20page/2023%201.3.1.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/1.3%20two%20days%20per%20page/1.3.1%20two%20days%20per%20page.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_A4%20data%20sources/TwoDaysPerPage%20source.xlsx"
+}, {
+	"name": "Two days per page lined",
+	"pageSize": "a4-a5",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/1.3%20two%20days%20per%20page/Picture%202.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/1.3%20two%20days%20per%20page/2023%201.3.2.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/1.3%20two%20days%20per%20page/2023%201.3.2.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/1.3%20two%20days%20per%20page/1.3.2%20two%20days%20per%20page%20lined.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_A4%20data%20sources/TwoDaysPerPage%20source.xlsx"
+}, {
+	"name": "Week on one page",
+	"pageSize": "a4-a5",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/1.4%20week%20per%20page/Picture%201.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/1.4%20week%20per%20page/2023%201.4.1.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/1.4%20week%20per%20page/2023%201.4.1.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/1.4%20week%20per%20page/1.4.2%20Week%20on%20one%20page.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_A4%20data%20sources/WeekPerPageSource.xlsx"
+}, {
+	"name": "Week on one page plus tasks",
+	"pageSize": "a4-a5",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/1.4%20week%20per%20page/Picture%202.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/1.4%20week%20per%20page/2023%201.4.2.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/1.4%20week%20per%20page/2023%201.4.2.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/1.4%20week%20per%20page/1.4.1%20Week%20on%20one%20page%20plus%20tasks.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_A4%20data%20sources/WeekPerPageSource.xlsx"
+}, {
+	"name": "Week on one page cc",
+	"pageSize": "a4-a5",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/1.4%20week%20per%20page/Picture%203.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/1.4%20week%20per%20page/2023%201.4.3.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/1.4%20week%20per%20page/2023%201.4.3.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/1.4%20week%20per%20page/1.4.3%20Week%20on%20one%20page%20cc.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_A4%20data%20sources/WeekPerPageSource.xlsx"
+}, {
+	"name": "Week on two pages tm 4 line",
+	"pageSize": "a4-a5",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/1.5%20week%20on%20two%20pages/Picture%201.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/1.5%20week%20on%20two%20pages/2023%201.5.1.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/1.5%20week%20on%20two%20pages/2023%201.5.1.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/1.5%20week%20on%20two%20pages/1.5.1%20Week%20on%20two%20pages%20tm%204%20line.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_A4%20data%20sources/WeekOnTwoPagesSource.xlsx"
+}, {
+	"name": "Week on two pages tm 5 line",
+	"pageSize": "a4-a5",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/1.5%20week%20on%20two%20pages/Picture%202.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/1.5%20week%20on%20two%20pages/2023%201.5.2.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/1.5%20week%20on%20two%20pages/2023%201.5.2.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/1.5%20week%20on%20two%20pages/1.5.2%20Week%20on%20two%20pages%20tm%205%20line.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_A4%20data%20sources/WeekOnTwoPagesSource.xlsx"
+}, {
+	"name": "Week on two pages journal",
+	"pageSize": "a4-a5",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/1.5%20week%20on%20two%20pages/Picture%203.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/1.5%20week%20on%20two%20pages/2023%201.5.3.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/1.5%20week%20on%20two%20pages/2023%201.5.3.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/1.5%20week%20on%20two%20pages/1.5.3%20Week%20on%20two%20pages%20journal.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_A4%20data%20sources/WeekOnTwoPagesSource.xlsx"
+}, {
+	"name": "Week on two pages journal lined",
+	"pageSize": "a4-a5",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/1.5%20week%20on%20two%20pages/Picture%204.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/1.5%20week%20on%20two%20pages/2023%201.5.4.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/1.5%20week%20on%20two%20pages/2023%201.5.4.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/1.5%20week%20on%20two%20pages/1.5.4%20Week%20on%20two%20pages%20journal%20lined.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_A4%20data%20sources/WeekOnTwoPagesSource.xlsx"
+}, {
+	"name": "Week on two pages tm with journal 4 line",
+	"pageSize": "a4-a5",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/1.5%20week%20on%20two%20pages/Picture%205.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/1.5%20week%20on%20two%20pages/2023%201.5.5.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/1.5%20week%20on%20two%20pages/2023%201.5.5.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/1.5%20week%20on%20two%20pages/1.5.5%20Week%20on%20two%20pages%20tm%20with%20journal%204%20line.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_A4%20data%20sources/WeekOnTwoPagesSource.xlsx"
+}, {
+	"name": "Week on two pages tm with journal 5 line",
+	"pageSize": "a4-a5",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/1.5%20week%20on%20two%20pages/Picture%206.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/1.5%20week%20on%20two%20pages/2023%201.5.6.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/1.5%20week%20on%20two%20pages/2023%201.5.6.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/1.5%20week%20on%20two%20pages/1.5.6%20Week%20on%20two%20pages%20tm%20with%20journal%205%20line.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_A4%20data%20sources/WeekOnTwoPagesSource.xlsx"
+}, {
+	"name": "Week on two pages cc",
+	"pageSize": "a4-a5",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/1.5%20week%20on%20two%20pages/Picture%207.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/1.5%20week%20on%20two%20pages/2023%201.5.7.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/1.5%20week%20on%20two%20pages/2023%201.5.7.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/1.5%20week%20on%20two%20pages/1.5.7%20Week%20on%20two%20pages%20cc.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_A4%20data%20sources/WeekOnTwoPagesSource.xlsx"
+}, {
+	"name": "Week on two pages vertical",
+	"pageSize": "a4-a5",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/1.5%20week%20on%20two%20pages/Picture%208.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/1.5%20week%20on%20two%20pages/2023%201.5.8.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/1.5%20week%20on%20two%20pages/2023%201.5.8.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/1.5%20week%20on%20two%20pages/1.5.8%20Week%20on%20two%20pages%20vertical.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_A4%20data%20sources/WeekOnTwoPagesSource.xlsx"
+}, {
+	"name": "Week on two pages vertical minimalist",
+	"pageSize": "a4-a5",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/1.5%20week%20on%20two%20pages/Picture%209.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/1.5%20week%20on%20two%20pages/2023%201.5.9.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/1.5%20week%20on%20two%20pages/2023%201.5.9.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/1.5%20week%20on%20two%20pages/1.5.9%20Week%20on%20two%20pages%20vertical%20minimalist.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_A4%20data%20sources/WeekOnTwoPagesSource.xlsx"
+}, {
+	"name": "Month per page",
+	"pageSize": "a4-a5",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/1.6%20month%20per%20page/Picture%201.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/1.6%20month%20per%20page/2023%201.6.1.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/1.6%20month%20per%20page/2023%201.6.1.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/1.6%20month%20per%20page/1.6.1%20Month%20per%20page.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_A4%20data%20sources/Monthly%20source.xlsx"
+}, {
+	"name": "Month per page plus notes",
+	"pageSize": "a4-a5",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/1.6%20month%20per%20page/Picture%202.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/1.6%20month%20per%20page/2023%201.6.2.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/1.6%20month%20per%20page/2023%201.6.2.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/1.6%20month%20per%20page/1.6.2%20Month%20per%20page%20plus%20notes.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_A4%20data%20sources/Monthly%20source.xlsx"
+}, {
+	"name": "Month on two pages",
+	"pageSize": "a4-a5",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/1.7%20month%20on%20two%20pages/Picture%201.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/1.7%20month%20on%20two%20pages/2023%201.7.1.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/1.7%20month%20on%20two%20pages/2023%201.7.1.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/1.7%20month%20on%20two%20pages/1.7.1%20Month%20on%20two%20pages.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_A4%20data%20sources/Monthly%20source.xlsx"
+}, {
+	"name": "Month on two pages plus notes",
+	"pageSize": "a4-a5",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/1.7%20month%20on%20two%20pages/Picture%202.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/1.7%20month%20on%20two%20pages/2023%201.7.2.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/1.7%20month%20on%20two%20pages/2023%201.7.2.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/1.7%20month%20on%20two%20pages/1.7.2%20Month%20on%20two%20pages%20plus%20notes.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_A4%20data%20sources/Monthly%20source.xlsx"
+}, {
+	"name": "Annual planner",
+	"pageSize": "a4-a5",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/1.8%20year%20planner/Picture%201.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/1.8%20year%20planner/2023%201.8.1.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/1.8%20year%20planner/2023%201.8.1.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/1.8%20year%20planner/1.8.1%20Annual%20planner.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_A4%20data%20sources/Year%20source.xlsx"
+}, {
+	"name": "Annual planner Z-fold",
+	"pageSize": "a4-a5",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/1.8%20year%20planner/Picture%202.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/1.8%20year%20planner/2023%201.8.2.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/1.8%20year%20planner/2023%201.8.2.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/1.8%20year%20planner/1.8.2%20Annual%20planner%20Z-fold.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_A4%20data%20sources/Year%20source.xlsx"
+}, {
+	"name": "Day per page original",
+	"pageSize": "personal",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/2.1%20day%20per%20page%20original/Picture%201.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/2.1%20day%20per%20page%20original/2023%202.1.1.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/2.1%20day%20per%20page%20original/2023%202.1.1.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/2.1%20day%20per%20page%20original/2.1.1%20Day%20per%20page%20original.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_Other%20data%20sources/DayPerPageSource_PP.xlsx"
+}, {
+	"name": "Day per page minimalist",
+	"pageSize": "personal",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/2.1%20day%20per%20page%20original/Picture%202.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/2.1%20day%20per%20page%20original/2023%202.1.2.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/2.1%20day%20per%20page%20original/2023%202.1.2.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/2.1%20day%20per%20page%20original/2.1.2%20Day%20per%20page%20minimalist.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_Other%20data%20sources/DayPerPageSource_PP.xlsx"
+}, {
+	"name": "Day on two pages",
+	"pageSize": "personal",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/2.2%20day%20on%20two%20pages/Picture%201.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/2.2%20day%20on%20two%20pages/2023%202.2.1.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/2.2%20day%20on%20two%20pages/2023%202.2.1.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/2.2%20day%20on%20two%20pages/2.2.1%20Day%20on%20two%20pages.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_Other%20data%20sources/DayOnTwoPagesSource_PP.xlsx"
+}, {
+	"name": "Two days per page",
+	"pageSize": "personal",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/2.3%20two%20days%20per%20page/Picture%201.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/2.3%20two%20days%20per%20page/2023%202.3.1.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/2.3%20two%20days%20per%20page/2023%202.3.1.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/2.3%20two%20days%20per%20page/2.3.1%20Two%20days%20per%20page.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_Other%20data%20sources/TwoDaysPerPageSource_PP.xlsx"
+}, {
+	"name": "Two days per page lined",
+	"pageSize": "personal",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/2.3%20two%20days%20per%20page/Picture%202.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/2.3%20two%20days%20per%20page/2023%202.3.2.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/2.3%20two%20days%20per%20page/2023%202.3.2.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/2.3%20two%20days%20per%20page/2.3.2%20Two%20days%20per%20page%20lined.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_Other%20data%20sources/TwoDaysPerPageSource_PP.xlsx"
+}, {
+	"name": "Week per page",
+	"pageSize": "personal",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/2.4%20week%20per%20page/Picture%201.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/2.4%20week%20per%20page/2023%202.4.1.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/2.4%20week%20per%20page/2023%202.4.1.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/2.4%20week%20per%20page/2.4.1%20Week%20per%20page.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_Other%20data%20sources/WeekPerPageSource_PP.xlsx"
+}, {
+	"name": "Week on two pages tm",
+	"pageSize": "personal",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/2.5%20week%20on%20two%20pages/Picture%201.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/2.5%20week%20on%20two%20pages/2023%202.5.1.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/2.5%20week%20on%20two%20pages/2023%202.5.1.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/2.5%20week%20on%20two%20pages/2.5.1%20Week%20on%20two%20pages%20tm.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_Other%20data%20sources/WeekOnTwoPagesSource_PP.xlsx"
+}, {
+	"name": "Week on two pages cc",
+	"pageSize": "personal",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/2.5%20week%20on%20two%20pages/Picture%202.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/2.5%20week%20on%20two%20pages/2023%202.5.2.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/2.5%20week%20on%20two%20pages/2023%202.5.2.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/2.5%20week%20on%20two%20pages/2.5.2%20Week%20on%20two%20pages%20cc.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_Other%20data%20sources/WeekOnTwoPagesSource_PP.xlsx"
+}, {
+	"name": "Week on two pages vertical",
+	"pageSize": "personal",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/2.5%20week%20on%20two%20pages/Picture%203.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/2.5%20week%20on%20two%20pages/2023%202.5.3.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/2.5%20week%20on%20two%20pages/2023%202.5.3.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/2.5%20week%20on%20two%20pages/2.5.3%20Week%20on%20two%20pages%20vertical.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_Other%20data%20sources/WeekOnTwoPagesSource_PP.xlsx"
+}, {
+	"name": "Week on two pages landscape",
+	"pageSize": "personal",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/2.5%20week%20on%20two%20pages/Picture%204.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/2.5%20week%20on%20two%20pages/2023%202.5.4.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/2.5%20week%20on%20two%20pages/2023%202.5.4.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/2.5%20week%20on%20two%20pages/2.5.4%20Week%20on%20two%20pages%20landscape.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_Other%20data%20sources/WeekOnTwoPagesSource_PP.xlsx"
+}, {
+	"name": "Month per page",
+	"pageSize": "personal",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/2.6%20month%20per%20page/Picture%201.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/2.6%20month%20per%20page/2023%202.6.1.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/2.6%20month%20per%20page/2023%202.6.1.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/2.6%20month%20per%20page/2.6.1%20Month%20per%20page.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_Other%20data%20sources/MonthSource_PP.xlsx"
+}, {
+	"name": "Month on two pages",
+	"pageSize": "personal",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/2.7%20month%20on%20two%20pages/Picture%201.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/2.7%20month%20on%20two%20pages/2023%202.7.1.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/2.7%20month%20on%20two%20pages/2023%202.7.1.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/2.7%20month%20on%20two%20pages/2.7.1%20Month%20on%20two%20pages.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_Other%20data%20sources/MonthSource_PP.xlsx"
+}, {
+	"name": "Yearly",
+	"pageSize": "personal",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/2.8%20yearly/Picture%201.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/2.8%20yearly/2023%202.8.1.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/2.8%20yearly/2023%202.8.1.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/2.8%20yearly/2.8.1%20Yearly.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_Other%20data%20sources/Year%20source.xlsx"
+}, {
+	"name": "Day per page",
+	"pageSize": "pocket",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/3.1%20day%20per%20page/Picture%201.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/3.1%20day%20per%20page/2023%203.1.1.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/3.1%20day%20per%20page/2023%203.1.1.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/3.1%20day%20per%20page/3.1.1%20Day%20per%20page.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_Other%20data%20sources/DayPerPageSource_PP.xlsx"
+}, {
+	"name": "Day on two pages",
+	"pageSize": "pocket",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/3.2%20day%20on%20two%20pages/Picture%201.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/3.2%20day%20on%20two%20pages/2023%203.2.1.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/3.2%20day%20on%20two%20pages/2023%203.2.1.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/3.2%20day%20on%20two%20pages/3.2.1%20Day%20on%20two%20pages.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_Other%20data%20sources/DayOnTwoPagesSource_PP.xlsx"
+}, {
+	"name": "Two days per page",
+	"pageSize": "pocket",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/3.3%20two%20days%20per%20page/Picture%201.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/3.3%20two%20days%20per%20page/2023%203.3.1.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/3.3%20two%20days%20per%20page/2023%203.3.1.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/3.3%20two%20days%20per%20page/3.3.1%20Two%20days%20per%20page.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_Other%20data%20sources/TwoDaysPerPageSource_PP.xlsx"
+}, {
+	"name": "Two days per page lined",
+	"pageSize": "pocket",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/3.3%20two%20days%20per%20page/Picture%202.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/3.3%20two%20days%20per%20page/2023%203.3.2.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/3.3%20two%20days%20per%20page/2023%203.3.2.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/3.3%20two%20days%20per%20page/3.3.2%20Two%20days%20per%20page%20lined.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_Other%20data%20sources/TwoDaysPerPageSource_PP.xlsx"
+}, {
+	"name": "Week on two pages tm",
+	"pageSize": "pocket",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/3.4%20week%20on%20two%20pages/Picture%201.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/3.4%20week%20on%20two%20pages/2023%203.4.1.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/3.4%20week%20on%20two%20pages/2023%203.4.1.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/3.4%20week%20on%20two%20pages/3.4.1%20Week%20on%20two%20pages%20tm.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_Other%20data%20sources/WeekOnTwoPagesSource_PP.xlsx"
+}, {
+	"name": "Week on two pages cc",
+	"pageSize": "pocket",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/3.4%20week%20on%20two%20pages/Picture%202.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/3.4%20week%20on%20two%20pages/2023%203.4.2.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/3.4%20week%20on%20two%20pages/2023%203.4.2.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/3.4%20week%20on%20two%20pages/3.4.2%20Week%20on%20two%20pages%20cc.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_Other%20data%20sources/WeekOnTwoPagesSource_PP.xlsx"
+}, {
+	"name": "Month per page",
+	"pageSize": "pocket",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/3.5%20month%20per%20page/Picture%201.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/3.6%20month%20on%20two%20pages/2023%203.6.1.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/3.5%20month%20per%20page/2023%203.5.1.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/3.5%20month%20per%20page/3.5.1%20Month%20per%20page.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_A4%20data%20sources/Monthly%20source.xlsx"
+}, {
+	"name": "Month on two pages",
+	"pageSize": "pocket",
+	"preview": "https://philofaxy.com/inserts/__2020%20revamp/3.6%20month%20on%20two%20pages/Picture%201.png",
+	"inserts-word": "https://philofaxy.com/inserts/__2020%20revamp/3.6%20month%20on%20two%20pages/2023%203.6.1.docx",
+	"inserts-pdf": "https://philofaxy.com/inserts/__2020%20revamp/3.6%20month%20on%20two%20pages/2023%203.6.1.pdf",
+	"template-word": "https://philofaxy.com/inserts/__2020%20revamp/3.6%20month%20on%20two%20pages/3.6.1%20Month%20on%20two%20pages.docx",
+	"template-excel": "https://philofaxy.com/inserts/__2020%20revamp/_A4%20data%20sources/Monthly%20source.xlsx"
+}
+]
