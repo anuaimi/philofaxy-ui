@@ -26,7 +26,7 @@ const data = require("../../data/philofaxy.json");
  // downloadFile - download the requested file & save to disk
 async function downloadFile( sourceUrl: string, targetFilename: string): Promise<boolean> {
 
-  console.log("downloading: ", sourceUrl);
+  console.log("  downloading: ", sourceUrl);
 
   // see if file already exists
   if (fs.existsSync(targetFilename)) {
@@ -52,7 +52,7 @@ async function downloadFile( sourceUrl: string, targetFilename: string): Promise
   return true;
 }
 
-function generateLocalFilename( name: string, paperSize: string, sourceUrl: string, modifier: string = "") : string {
+function generateLocalFilename( desiredYear: string, name: string, paperSize: string, sourceUrl: string, modifier: string = "") : string {
 
   // generate path & filename to save to
     let parsedUrl = url.parse(sourceUrl)
@@ -62,56 +62,56 @@ function generateLocalFilename( name: string, paperSize: string, sourceUrl: stri
     const filenameExt = remoteFilename.split('.').pop();
     const filename = name.replace(/ /g, "_");
   
+    let localFilename:string = "";
+
     // build local filename
-    const localFilename = "./data/" + paperSize + "/" + filename + modifier + "." + filenameExt;
-  
+    localFilename = "./data/" + paperSize + "/" + filename + modifier + "." + filenameExt;
+
+    // see if actually should be in a subdirectory
+    if (sourceUrl.search("2023") > 0) {
+      sourceUrl = sourceUrl.replace(/2023/g, desiredYear);
+      localFilename = "./data/" + paperSize + "/" + desiredYear.toString() + "/" + filename + modifier + "." + filenameExt;
+    }
+    //if template, template
+    if (modifier === "_template") {
+      localFilename = "./data/" + paperSize + "/templates/" + filename + modifier + "." + filenameExt;
+    }
+
     return localFilename;
 }
 
 async function main() {
 
-  // const sourceUrl = "https://philofaxy.com/inserts/__2020%20revamp/1.1%20day%20per%20page/Picture%201.png";
-  // const response = await fetch(sourceUrl);
-  // if (response.ok) {
-  //   if (response.body === undefined) {
-  //     console.log('no stream');
-  //   } else {
-  //     console.log('ready to get body');
-  //     console.log(response.body);
-  //     const stream = fs.createWriteStream("./test.png");
-  //     await finished(Readable.fromWeb(response.body).pipe(stream));
-  //     console.log("file written");
-  //   }
-  // } else {
-  //   console.log(response.statusText);
-  // }
-  // console.log("==========");
-
+  // site seems to have files for 2023, 2024 and 2025
+  const desiredYear = "2025";
+  
   // for each planner template
   for (var entry in data) {
 
     const name = data[entry]['name'];
     const paperSize = data[entry]['pageSize'];
-    console.log('getting files for: ', name, " (", paperSize, ")");
+    console.log('getting files for: ', desiredYear, " - ", name, " (", paperSize, ")");
 
     let sourceUrl = data[entry]['preview'];
-    let localFilename = await generateLocalFilename( name, paperSize, sourceUrl);
+    sourceUrl = sourceUrl.replace(/2023/g, desiredYear);
+
+    let localFilename = await generateLocalFilename( desiredYear, name, paperSize, sourceUrl);
     await downloadFile( sourceUrl, localFilename);
 
     sourceUrl = data[entry]['inserts-pdf'];
-    localFilename = await generateLocalFilename( name, paperSize, sourceUrl);
+    localFilename = await generateLocalFilename( desiredYear, name, paperSize, sourceUrl);
     await downloadFile( sourceUrl, localFilename);
 
     sourceUrl = data[entry]['inserts-word'];
-    localFilename = await generateLocalFilename( name, paperSize, sourceUrl);
+    localFilename = await generateLocalFilename( desiredYear, name, paperSize, sourceUrl);
     await downloadFile( sourceUrl, localFilename);
 
     sourceUrl = data[entry]['template-word'];
-    localFilename = await generateLocalFilename( name, paperSize, sourceUrl, "_template");
+    localFilename = await generateLocalFilename( desiredYear, name, paperSize, sourceUrl, "_template");
     await downloadFile( sourceUrl, localFilename);
 
     sourceUrl = data[entry]['template-excel'];
-    localFilename = await generateLocalFilename( name, paperSize, sourceUrl, "_template");
+    localFilename = await generateLocalFilename( desiredYear, name, paperSize, sourceUrl, "_template");
     await downloadFile( sourceUrl, localFilename);
 
     // don't want to get blocked by the server
