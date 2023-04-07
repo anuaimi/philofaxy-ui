@@ -35,7 +35,7 @@ async function downloadFile( sourceUrl: string, targetFilename: string): Promise
   }
 
   // need to download the file
-  const response = await fetch(sourceUrl);
+  const response = await fetch(sourceUrl)
   if (response.ok) {
     const stream = fs.createWriteStream(targetFilename);
     await finished(Readable.fromWeb(response.body).pipe(stream));  
@@ -83,7 +83,7 @@ function generateLocalFilename( desiredYear: string, name: string, paperSize: st
 async function main() {
 
   // site seems to have files for 2023, 2024 and 2025
-  const desiredYear = "2025";
+  const desiredYear = "2024";
   
   // for each planner template
   for (var entry in data) {
