@@ -1,20 +1,9 @@
 import * as React from 'react'
+import PaperSizes from "./PaperSizes"
+import PaperPreview from "./PaperPreview"
 
-// 1. import `ChakraProvider` component
-import { ChakraBaseProvider, extendBaseTheme, Box, Button, Center, Radio, RadioGroup, Stack } from '@chakra-ui/react'
+import { ChakraProvider, Box, Button, Center, Heading, Radio, RadioGroup, Stack, Text} from '@chakra-ui/react'
 // import chakraTheme from '@chakra-ui/theme'
-
-const colors = {
-    brand: {
-      900: '#1a365d',
-      800: '#153e75',
-      700: '#2a69ac',
-    }
-}
-
-const theme = extendBaseTheme({
-  colors
-})
 
 function PaperSizeOptions() {
   const [value, setValue] = React.useState('1');
@@ -32,22 +21,27 @@ function PaperSizeOptions() {
 function App() {
   // 2. Wrap ChakraProvider at the root of your app
   return (
-    <ChakraBaseProvider theme={theme}>
-      <Box w="100%" p={4}>
-        This is a box
-        <br/>
-        select the paper size: a4/a5, personal, pocket
-        - when it changes, change the list of options
-        <br/>
-
-        list of options
+    <ChakraProvider>
+      <Heading as="h1">Print Planner Inserts</Heading>
+      <Text>Why pay for planner inserts when you can print your own!</Text>
+      <Box w="100%" p={4} border="2px" borderRadius="10" borderColor='gray.400'>
+        <Text>Select the paper size your planner uses:</Text>
         <br/>
         <PaperSizeOptions/>
       </Box>
+      <Box p={5}>
+        <PaperSizes/>
+      </Box>
+      <Box display="flex" p={5}>
+        <PaperSizes/>
+        <PaperPreview/>
+      </Box>
+      <Box m={5}>
       <Center>
         <Button colorScheme='blue' size='lg'>Download</Button>
       </Center>
-    </ChakraBaseProvider>
+      </Box>
+    </ChakraProvider>
   )
 }
 export default App;
