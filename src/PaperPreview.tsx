@@ -6,7 +6,7 @@ import { Box, Image } from '@chakra-ui/react'
 function PaperPreview() {
   return (
     <Box w="50%" border="2px">
-      <Image src="Day_per_page.png" alt="day per page"></Image>
+      <Image src="images/a4-a5/Day_per_page.png" alt="day per page"></Image>
     </Box>
   )
 }
