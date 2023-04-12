@@ -1,38 +1,27 @@
 import * as React from 'react'
 
-import { Box, RadioGroup, Radio, Stack, Tab, Tabs, TabList, TabPanel, TabPanels } from '@chakra-ui/react'
-// import chakraTheme from '@chakra-ui/theme'
+import { Radio, RadioGroup, Stack } from '@chakra-ui/react'
+
+const paperSizes = [ 
+  {name: 'a4-a5', display:'A4/A5'}, 
+  {name: 'personal', display:'Personal'}, 
+  {name: 'pocket', display: 'Pocket'}];
 
 function PaperSizes() {
+  const [value, setValue] = React.useState(paperSizes[0].name);
+
   return (
-    <Box w="50%" border="2px">
-      <Tabs>
-        <TabList>
-          <Tab>A4/A5</Tab>
-          <Tab>Personal</Tab>
-          <Tab>Pocket</Tab>
-        </TabList>
-        <TabPanels>
-          <TabPanel>
-            <p>one</p>
-          </TabPanel>
-          <TabPanel>
-            <p>two</p>
-          </TabPanel>
-          <TabPanel>
-            <RadioGroup>
-              <Stack direction="column">
-                <Radio value="1">Day Per Page</Radio>
-                <Radio value="2">Day on Two Pages</Radio>
-                <Radio value="3">Two days per page</Radio>
-                <Radio value="4">Two days per page lined</Radio>
-              </Stack>
-            </RadioGroup>
-          </TabPanel>
-        </TabPanels>
-      </Tabs>
-    </Box>
+    <RadioGroup defaultValue='a4-a5' onChange={setValue} value={value}>
+      <Stack ml={4} spacing={4}  direction='row'>
+        {paperSizes.map((paperSize) => {
+          return (
+            <Radio value={paperSize.name}>{paperSize.display}</Radio>
+          ) 
+        })}
+      </Stack>
+    </RadioGroup>
   )
 }
 
 export default PaperSizes;
+

@@ -1,27 +1,20 @@
 import * as React from 'react'
+
 import Header from "./Header"
 import PaperSizes from "./PaperSizes"
+import PlannerLayouts from "./PlannerLayouts"
 import PaperPreview from "./PaperPreview"
+import Download from "./Download"
 import Footer from "./Footer"
 
-import { ChakraProvider, Box, Button, Center, Radio, RadioGroup, Stack, Text} from '@chakra-ui/react'
+import { ChakraProvider, Box, Text} from '@chakra-ui/react'
 // import chakraTheme from '@chakra-ui/theme'
 
-function PaperSizeOptions() {
-  const [value, setValue] = React.useState('1');
-  return (
-    <RadioGroup onChange={setValue} value={value}>
-      <Stack direction='row'>
-        <Radio value="1">A4/A5</Radio>
-        <Radio value="2">Personal</Radio>
-        <Radio value="3">Pocket</Radio>
-      </Stack>
-    </RadioGroup>
-  )
-}
 
 function App() {
-  // 2. Wrap ChakraProvider at the root of your app
+
+  // const [paperSize, setPaperSize] = React.useState("a4-a5")
+
   return (
     <ChakraProvider>
       <Header />
@@ -29,17 +22,13 @@ function App() {
       <Box w="100%" p={4} border="2px" borderRadius="10" borderColor='gray.400'>
         <Text>Select the paper size your planner uses:</Text>
         <br/>
-        <PaperSizeOptions/>
+        <PaperSizes/>
       </Box>
       <Box display="flex" p={5}>
-        <PaperSizes/>
+        <PlannerLayouts/>
         <PaperPreview/>
       </Box>
-      <Box m={5}>
-      <Center>
-        <Button colorScheme='blue' size='lg'>Download</Button>
-      </Center>
-      </Box>
+      <Download />
       <Footer/>
     </ChakraProvider>
   )

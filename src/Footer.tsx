@@ -7,7 +7,7 @@ import { ExternalLinkIcon } from '@chakra-ui/icons'
 
 function Footer() {
   return (
-    <Box mt={20} mb={12}>
+    <Box mt={12} mb={12}>
       <Text fontSize="xs" mt={8} ml={20} mr={20} textAlign="center">
         The original source for the planner inserts is from {' '}
         <Link href="https://philofaxy.blogspot.com" isExternal>Philofaxy<ExternalLinkIcon mx="2px" /></Link>
