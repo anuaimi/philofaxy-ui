@@ -2,6 +2,7 @@ import * as React from 'react'
 
 import Header from "./Header"
 import PlannerLayouts from "./PlannerLayouts"
+import PaperPreview from "./PaperPreview"
 import Download from "./Download"
 import Footer from "./Footer"
 
@@ -12,6 +13,7 @@ import { ChakraProvider, Box, Text} from '@chakra-ui/react'
 function App() {
 
   const [paperSize, ] = React.useState("a4-a5")
+  // const [paperSize, ] = React.useState("personal")
 
   return (
     <ChakraProvider>
@@ -22,7 +24,8 @@ function App() {
         <br/>
       </Box>
       <Box display="flex" p={5}>
-        <PlannerLayouts/>
+        <PlannerLayouts paper={paperSize}/>
+        <PaperPreview/>
       </Box>
       <Download paper={paperSize} layout="day_on_two_pages" year="2023"/>
       <Footer/>
