@@ -16,7 +16,7 @@ function Download({paper, layout, year}:DownloadProps) {
     // need to get state of: pageSize, layout, year
     const msg = "paperSize: " + paper + " layout: " + layout + " year: " + year;
     alert(msg);
-    window.open("https://philofaxy.com/inserts/__2020%20revamp/1.1%20day%20per%20page/2023%201.1.1.pdf")
+    // window.open("https://philofaxy.com/inserts/__2020%20revamp/1.1%20day%20per%20page/2023%201.1.1.pdf")
   }
   
   return (

@@ -7,20 +7,24 @@ import { layoutDetails } from './layoutDetails'
 
 type PlannerLayoutProps = {
   paper: string;
+  setPaperSize: React.Dispatch<string>;
+  layout: string;
+  setLayout: React.Dispatch<string>;
 };
 
-function PlannerLayouts({paper}:PlannerLayoutProps) {
-  const [defaultPaperSize, ] = React.useState(paper);
-  const [, setPaperSize] = React.useState(defaultPaperSize);
+function PlannerLayouts({paper, setPaperSize, layout, setLayout}:PlannerLayoutProps) {
 
-  const getIndex = (paperSize:string) => {
+  const getTabIndex = (paperSize:string) => {
     if (paperSize === "a4-a5") {
+      console.log("a4-a5 is selected");
       return 0;
     }
     else if (paperSize === "personal") {
+      console.log("personal is selected");
       return 1;
     } else {
       // must be pocket
+      console.log("pocket is selected");
       return 2;
     }
   }
@@ -28,16 +32,24 @@ function PlannerLayouts({paper}:PlannerLayoutProps) {
   const handleTabChange= (index: number) => {
     if (index === 0) {
       setPaperSize('a4-a5');
+      console.log('set paper size to a4-a5');
     } else if (index === 1) {
       setPaperSize('personal');
+      console.log('set paper size to personal');
     } else {
       setPaperSize('pocket');
+      console.log('set paper size to pocket');
     }
+  }
+
+  const handleLayoutChange = (newLayout:string) => {
+    console.log("layout changed to ", newLayout);
+    setLayout(newLayout);
   }
 
   return (
     <Box w="50%" border="2px">
-      <Tabs defaultIndex={getIndex(defaultPaperSize)} onChange={handleTabChange} align="start">
+      <Tabs defaultIndex={getTabIndex(paper)} onChange={handleTabChange} align="start">
         <TabList>
           <Tab>A4/A5</Tab>
           <Tab>Personal</Tab>
@@ -47,8 +59,7 @@ function PlannerLayouts({paper}:PlannerLayoutProps) {
           <TabPanel>
             <Box display="flex" alignItems="left">
               <Box>
-                <RadioGroup defaultValue="Day_per_page_original">
-                {/* <RadioGroup onChange={setPaperSize} defaultValue="Day_per_page_original"> */}
+                <RadioGroup defaultValue={layout} onChange={handleLayoutChange}>
                   <Stack>
                     {layoutDetails['a4-a5'].map((layout) => {
                       return (
@@ -61,7 +72,7 @@ function PlannerLayouts({paper}:PlannerLayoutProps) {
             </Box>
           </TabPanel>
           <TabPanel>
-            <RadioGroup defaultValue="Day_per_page_original">
+          <RadioGroup defaultValue={layout} onChange={handleLayoutChange}>
               <Stack>
                 {layoutDetails['personal'].map((layout) => {
                   return (
@@ -72,7 +83,7 @@ function PlannerLayouts({paper}:PlannerLayoutProps) {
             </RadioGroup>
           </TabPanel>
           <TabPanel>
-            <RadioGroup defaultValue="Day_per_page">
+          <RadioGroup defaultValue={layout} onChange={handleLayoutChange}>
               <Stack>
                 {layoutDetails['pocket'].map((layout) => {
                   return (
