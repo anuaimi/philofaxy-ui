@@ -12,14 +12,14 @@ import { ChakraProvider, Box, Text} from '@chakra-ui/react'
 
 function App() {
 
-  const [paperSize, setPaperSize] = useState<string>("");
-  const [layout, setLayout] = useState<string>("");
+  const [paperSize, setPaperSize] = useState<string>("a4-a5");
+  const [layout, setLayout] = useState<string>("Day_per_page_original");
   const [year, setYear] = useState<string>("");
 
   // set default values
   useEffect( () => {
     setPaperSize("a4-a5");
-    setLayout("day_on_two_pages");
+    setLayout("Day_per_page_original");
     setYear("2023");
   }, []);
 

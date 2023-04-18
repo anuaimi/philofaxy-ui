@@ -9,9 +9,17 @@ type PaperPreviewProps = {
 };
 
 function PaperPreview({paper, layout}:PaperPreviewProps) {
+
+  const generatePreviewUrl = () => {
+    
+    const previewUrl = `images/${paper}/${layout}.png`;
+    console.log("preview url is " + previewUrl);
+    return previewUrl;
+  }
+
   return (
     <Box w="50%" p={10} border="2px">
-      <Image src="images/a4-a5/Day_per_page.png" alt="day per page"></Image>
+      <Image src={generatePreviewUrl()} alt="day per page"></Image>
     </Box>
   )
 }
