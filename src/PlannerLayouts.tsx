@@ -7,11 +7,12 @@ import { layoutDetails } from './layoutDetails'
 
 type PlannerLayoutProps = {
   paper: string;
+  setPaperSize: React.Dispatch<string>;
+  layout: string;
+  setLayout: React.Dispatch<string>;
 };
 
-function PlannerLayouts({paper}:PlannerLayoutProps) {
-  const [defaultPaperSize, ] = React.useState(paper);
-  const [, setPaperSize] = React.useState(defaultPaperSize);
+function PlannerLayouts({paper, setPaperSize, layout, setLayout}:PlannerLayoutProps) {
 
   const getIndex = (paperSize:string) => {
     if (paperSize === "a4-a5") {
@@ -28,16 +29,19 @@ function PlannerLayouts({paper}:PlannerLayoutProps) {
   const handleTabChange= (index: number) => {
     if (index === 0) {
       setPaperSize('a4-a5');
+      console.log('set paper size to a4-a5');
     } else if (index === 1) {
       setPaperSize('personal');
+      console.log('set paper size to personal');
     } else {
       setPaperSize('pocket');
+      console.log('set paper size to pocket');
     }
   }
 
   return (
     <Box w="50%" border="2px">
-      <Tabs defaultIndex={getIndex(defaultPaperSize)} onChange={handleTabChange} align="start">
+      <Tabs defaultIndex={getIndex(paper)} onChange={handleTabChange} align="start">
         <TabList>
           <Tab>A4/A5</Tab>
           <Tab>Personal</Tab>

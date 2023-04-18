@@ -1,4 +1,4 @@
-import * as React from 'react'
+import { useEffect, useState } from 'react'
 
 import Header from "./Header"
 import PlannerLayouts from "./PlannerLayouts"
@@ -12,22 +12,31 @@ import { ChakraProvider, Box, Text} from '@chakra-ui/react'
 
 function App() {
 
-  const [paperSize, ] = React.useState("a4-a5")
-  // const [paperSize, ] = React.useState("personal")
+  const [paperSize, setPaperSize] = useState<string>("");
+  const [layout, setLayout] = useState<string>("");
+  const [year, setYear] = useState<string>("");
+
+  // set default values
+  useEffect( () => {
+    setPaperSize("a4-a5");
+    setLayout("day_on_two_pages");
+    setYear("2023");
+  }, []);
 
   return (
     <ChakraProvider>
       <Header />
-      <Text fontSize="m" m={4}>Why pay for planner inserts when you can print your own!</Text>
-      <Box w="100%" p={4} border="2px" borderRadius="10" borderColor='gray.400'>
-        <Text>Select the paper size your planner uses:</Text>
-        <br/>
+      <Box w="100%" p={5} border="2px" borderColor='gray.400'>
+        <Text fontSize="m">Why pay for planner inserts when you can print your own!</Text>
+      </Box>
+      <Box w="100%" p={5} borderColor='gray.400'>
+        <Text>Select the paper size your planner uses and then select the layout you want:</Text>
       </Box>
       <Box display="flex" p={5}>
-        <PlannerLayouts paper={paperSize}/>
-        <PaperPreview/>
+        <PlannerLayouts paper={paperSize} setPaperSize={setPaperSize} layout={layout} setLayout={setLayout}/>
+        <PaperPreview paper={paperSize} layout={layout}/>
       </Box>
-      <Download paper={paperSize} layout="day_on_two_pages" year="2023"/>
+      <Download paper={paperSize} layout={layout} year={year}/>
       <Footer/>
     </ChakraProvider>
   )
