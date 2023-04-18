@@ -16,15 +16,15 @@ function PlannerLayouts({paper, setPaperSize, layout, setLayout}:PlannerLayoutPr
 
   const getTabIndex = (paperSize:string) => {
     if (paperSize === "a4-a5") {
-      console.log("a4-a5 is selected");
+      // console.log("a4-a5 is selected");
       return 0;
     }
     else if (paperSize === "personal") {
-      console.log("personal is selected");
+      // console.log("personal is selected");
       return 1;
     } else {
       // must be pocket
-      console.log("pocket is selected");
+      // console.log("pocket is selected");
       return 2;
     }
   }
@@ -32,13 +32,13 @@ function PlannerLayouts({paper, setPaperSize, layout, setLayout}:PlannerLayoutPr
   const handleTabChange= (index: number) => {
     if (index === 0) {
       setPaperSize('a4-a5');
-      console.log('set paper size to a4-a5');
+      // console.log('set paper size to a4-a5');
     } else if (index === 1) {
       setPaperSize('personal');
-      console.log('set paper size to personal');
+      // console.log('set paper size to personal');
     } else {
       setPaperSize('pocket');
-      console.log('set paper size to pocket');
+      // console.log('set paper size to pocket');
     }
   }
 

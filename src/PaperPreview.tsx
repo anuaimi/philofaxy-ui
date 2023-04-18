@@ -13,7 +13,7 @@ function PaperPreview({paper, layout}:PaperPreviewProps) {
   const generatePreviewUrl = () => {
     
     const previewUrl = `images/${paper}/${layout}.png`;
-    console.log("preview url is " + previewUrl);
+    // console.log("preview url is " + previewUrl);
     return previewUrl;
   }
 
