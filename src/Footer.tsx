@@ -13,7 +13,7 @@ function Footer() {
         <Link href="https://philofaxy.blogspot.com" isExternal>Philofaxy<ExternalLinkIcon mx="2px" /></Link>
       </Text>
       <Text fontSize="xs" mt={4} ml={20} mr={20} textAlign="center">
-        If you are interested in customizing the inserts, the Philofaxy site has template files that can be used to 
+        If you are interested in customizing the inserts, the Philofaxy site has <Link href="https://philofaxy.blogspot.com/p/diary-inserts.html" isExternal>template files<ExternalLinkIcon mx="2px" /></Link> that can be used to 
         generate customized inserts.
       </Text>
     </Box>
