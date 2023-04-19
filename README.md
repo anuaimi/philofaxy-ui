@@ -6,28 +6,25 @@ The site allows you to print your own planner inserts in a variety of formats. T
 
 ## Development
 
-In the project directory, you can run:
+In the project directory, you can run the following command.  Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### `npm start`
+```bash
+npm start
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Note, the web page will reload if you make edits. You will also see any lint errors in the console.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+To build the version of the site to deploy, run the following command
 
-### `npm run build`
+```bash
+npm run build
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The production version of the site will be in the `build` folder.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Data
 
-### Data Management
-
-most of the data came from philofaxy.com which makes sense as this project is just a fancy UI for their planner inserts
-
-To get the latest data, there is a script in the scripts subdirectory
+The original data came from [https://philofaxy.com](https://philofaxy.com).  If you need to download newer versions of the files, use the script below.
 
 ```bash
 tsc scripts/cleanup_lists.ts
