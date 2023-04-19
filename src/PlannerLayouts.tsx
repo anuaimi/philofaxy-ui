@@ -14,6 +14,10 @@ type PlannerLayoutProps = {
 
 function PlannerLayouts({paper, setPaperSize, layout, setLayout}:PlannerLayoutProps) {
 
+  const [a4a5Layout, setA4a5Layout] = React.useState<string>(layout);
+  const [personalLayout, setPersonalLayout] = React.useState<string>("Day_per_page_original");
+  const [pocketLayout, setPocketLayout] = React.useState<string>("Day_per_page");
+
   const getTabIndex = (paperSize:string) => {
     if (paperSize === "a4-a5") {
       // console.log("a4-a5 is selected");
@@ -32,12 +36,15 @@ function PlannerLayouts({paper, setPaperSize, layout, setLayout}:PlannerLayoutPr
   const handleTabChange= (index: number) => {
     if (index === 0) {
       setPaperSize('a4-a5');
+      setLayout(a4a5Layout);
       // console.log('set paper size to a4-a5');
     } else if (index === 1) {
       setPaperSize('personal');
+      setLayout(personalLayout);
       // console.log('set paper size to personal');
     } else {
       setPaperSize('pocket');
+      setLayout(pocketLayout);
       // console.log('set paper size to pocket');
     }
   }
@@ -45,6 +52,13 @@ function PlannerLayouts({paper, setPaperSize, layout, setLayout}:PlannerLayoutPr
   const handleLayoutChange = (newLayout:string) => {
     console.log("layout changed to ", newLayout);
     setLayout(newLayout);
+    if (paper === "a4-a5") {
+      setA4a5Layout(newLayout);
+    } else if (paper === "personal") {
+      setPersonalLayout(newLayout);
+    } else {
+      setPocketLayout(newLayout);
+    }
   }
 
   return (
