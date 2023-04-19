@@ -1,6 +1,8 @@
 # Philofaxy UI
 
-An easy way to find the planner inserts you want
+The source code for [https://philofaxy-ui.pages.dev](https://philofaxy-ui.pages.dev). The website is an easier way to view and select the various planner inserts available from [https://philofaxy.blogspot.com](https://philofaxy.blogspot.com).
+
+The site allows you to print your own planner inserts in a variety of formats. There are inserts for the years 2023.
 
 ## Development
 
