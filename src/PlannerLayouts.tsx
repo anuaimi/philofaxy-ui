@@ -73,7 +73,7 @@ function PlannerLayouts({paper, setPaperSize, layout, setLayout}:PlannerLayoutPr
           <TabPanel>
             <Box display="flex" alignItems="left">
               <Box>
-                <RadioGroup defaultValue={layout} onChange={handleLayoutChange}>
+                <RadioGroup defaultValue={a4a5Layout} onChange={handleLayoutChange}>
                   <Stack>
                     {layoutDetails['a4-a5'].map((layout) => {
                       return (
@@ -86,7 +86,7 @@ function PlannerLayouts({paper, setPaperSize, layout, setLayout}:PlannerLayoutPr
             </Box>
           </TabPanel>
           <TabPanel>
-          <RadioGroup defaultValue={layout} onChange={handleLayoutChange}>
+          <RadioGroup defaultValue={personalLayout} onChange={handleLayoutChange}>
               <Stack>
                 {layoutDetails['personal'].map((layout) => {
                   return (
@@ -97,7 +97,7 @@ function PlannerLayouts({paper, setPaperSize, layout, setLayout}:PlannerLayoutPr
             </RadioGroup>
           </TabPanel>
           <TabPanel>
-          <RadioGroup defaultValue={layout} onChange={handleLayoutChange}>
+          <RadioGroup defaultValue={pocketLayout} onChange={handleLayoutChange}>
               <Stack>
                 {layoutDetails['pocket'].map((layout) => {
                   return (
